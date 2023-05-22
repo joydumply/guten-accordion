@@ -1,27 +1,35 @@
 {
-	"name": "guten-accordion",
-	"version": "0.1.0",
-	"description": "A long time ago in a galaxy far, far away...",
-	"author": "The WordPress Contributors",
-	"license": "GPL-2.0-or-later",
-	"main": "build/index.js",
-	"scripts": {
-		"build": "wp-scripts build & npx webpack --config webpack.config.accordion.js",
-		"format": "wp-scripts format",
-		"lint:css": "wp-scripts lint-style",
-		"lint:js": "wp-scripts lint-js",
-		"packages-update": "wp-scripts packages-update",
-		"plugin-zip": "wp-scripts plugin-zip",
-		"start": "wp-scripts start & npx webpack --config webpack.config.accordion.js --watch"
-	},
-	"devDependencies": {
-		"@babel/core": "^7.21.8",
-		"@babel/preset-env": "^7.21.5",
-		"@wordpress/babel-preset-default": "^7.17.0",
-		"@wordpress/scripts": "^26.4.0",
-		"babel-loader": "^9.1.2",
-		"webpack": "^5.83.1",
-		"webpack-cli": "^5.1.1",
-		"webpack-merge": "^5.8.0"
-	}
+  "name": "guten-accordion",
+  "version": "0.1.0",
+  "description": "A long time ago in a galaxy far, far away...",
+  "author": "The WordPress Contributors",
+  "license": "GPL-2.0-or-later",
+  "main": "build/index.js",
+  "scripts": {
+    "build": "wp-scripts build & npx webpack --config webpack.config.accordion.js",
+    "format": "wp-scripts format",
+    "lint:css": "wp-scripts lint-style",
+    "lint:js": "wp-scripts lint-js",
+    "packages-update": "wp-scripts packages-update",
+    "plugin-zip": "wp-scripts plugin-zip",
+    "start": "wp-scripts start & npx webpack --config webpack.config.accordion.js --watch"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.21.8",
+    "@babel/preset-env": "^7.21.5",
+    "@wordpress/babel-preset-default": "^7.17.0",
+    "@wordpress/scripts": "^26.4.0",
+    "babel-loader": "^9.1.2",
+    "webpack": "^5.83.1",
+    "webpack-cli": "^5.1.1",
+    "webpack-merge": "^5.8.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joydumply/guten-accordion.git"
+  },
+  "bugs": {
+    "url": "https://github.com/joydumply/guten-accordion/issues"
+  },
+  "homepage": "https://github.com/joydumply/guten-accordion#readme"
 }

@@ -1,1 +1,76 @@
-.wp-block-create-block-gutenpride input[type=text]{background:inherit;border:0;color:inherit;font-family:Gilbert,sans-serif;font-size:64px}.message-block-wrap{display:grid;gap:20px;grid-template-columns:1fr 1fr;width:100%}.message-block-wrap .column{width:100%}.accordion_editor{border:1px solid gray}.accordion_editor h3{margin-top:0}.accordion_editor .accordion-block-title input{font-size:25px}.accordion_editor .components-text-control__input{background-color:transparent;border:0;border-bottom:1px solid gray;border-radius:0}.accordion_editor textarea.block-editor-plain-text{border:1px solid gray;min-height:150px}.accordion{margin-bottom:20px;position:relative}.accordion .accordion-show-btn{align-items:center;background-color:#1e1e1e;border:0;border-radius:5px;color:#fff;cursor:pointer;display:flex;height:30px;justify-content:center;position:absolute;right:0;top:0;width:30px}.accordion .accordion-show-btn:hover{background-color:#007cba}.accordion :last-child,.accordion :last-child .accordion-title{margin-bottom:0}
+/*!****************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/editor.scss ***!
+  \****************************************************************************************************************************************************************************************************************************************/
+/**
+ * The following styles get applied inside the editor only.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+.wp-block-create-block-gutenpride input[type=text] {
+  font-family: Gilbert, sans-serif;
+  font-size: 64px;
+  color: inherit;
+  background: inherit;
+  border: 0;
+}
+
+.message-block-wrap {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  width: 100%;
+}
+.message-block-wrap .column {
+  width: 100%;
+}
+
+.accordion_editor {
+  border: 1px solid grey;
+}
+.accordion_editor h3 {
+  margin-top: 0;
+}
+.accordion_editor .accordion-block-title input {
+  font-size: 25px;
+}
+.accordion_editor .components-text-control__input {
+  border: 0;
+  border-bottom: 1px solid grey;
+  border-radius: 0;
+  background-color: transparent;
+}
+.accordion_editor textarea.block-editor-plain-text {
+  min-height: 150px;
+  border: 1px solid grey;
+}
+
+.accordion {
+  position: relative;
+  margin-bottom: 20px;
+}
+.accordion .accordion-show-btn {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 30px;
+  height: 30px;
+  border: 0;
+  background-color: #1e1e1e;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.accordion .accordion-show-btn:hover {
+  background-color: #007cba;
+}
+.accordion :last-child {
+  margin-bottom: 0;
+}
+.accordion :last-child .accordion-title {
+  margin-bottom: 0;
+}
+
+/*# sourceMappingURL=index.css.map*/
