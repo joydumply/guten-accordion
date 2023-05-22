@@ -37,7 +37,8 @@ A long time ago in a galaxy far, far away...
 
 
 1. Upload the plugin files to the `/wp-content/plugins/guten-accordion` directory
-1. Activate the plugin through the 'Plugins' screen in WordPress
+2. Activate the plugin through the 'Plugins' screen in WordPress
+3. In Gutenberg page editor search for Accordion block
 
 
 == Changelog ==
