@@ -55,7 +55,7 @@
 }
 .accordion-wrap {
   width: 944px;
-  padding: 72px 80px 64px;
+  padding: 72px 64px 64px;
   background: linear-gradient(#EBF5FF, #F7FBFF);
   border-radius: 16px;
   font-family: "Roboto";
@@ -65,13 +65,13 @@
   font-size: 32px;
   font-weight: 900;
   color: #0A2344;
-  padding-left: 16px;
   font-family: "OpenSans";
   margin-bottom: 48px;
 }
 .accordion-wrap .accordion {
   width: 100%;
-  padding: 0 32px;
+  padding: 0 16px;
+  transition: padding linear 0.2s;
 }
 .accordion-wrap .accordion .accordion-head {
   display: flex;
@@ -91,6 +91,8 @@
   background-color: #fff;
   border-radius: 8px;
   padding-bottom: 72px;
+  padding-left: 32px;
+  padding-right: 32px;
 }
 .accordion-wrap .accordion.open .accordion-head {
   border-bottom: 0;
@@ -137,7 +139,7 @@
 .accordion-content .accordion-image {
   max-width: 330px;
   width: 100%;
-  height: 297px;
+  min-height: 297px;
   padding: 10px;
   text-align: center;
   box-sizing: border-box;
